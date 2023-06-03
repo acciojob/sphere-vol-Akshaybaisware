@@ -3,7 +3,7 @@ function volume_sphere() {
   event.preventDefault(); // for form submit t
 	const radius = document.getElementById("radius").value;
 	const volume = (4 / 3 * Math.PI * radius ** 3);
-	document.getElementById("volume") = volume.toFixed(4); // for decimal 4hidigit tak
+	document.getElementById("volume").value = volume.toFixed(4); // for decimal 4 hi digit tak
 } 
 
 window.onload =function() // for time loading
