@@ -8,5 +8,5 @@ function volume_sphere() {
 
 window.onload =function() // for time loading
 	{
-		document.getElementById('MyForm').addEventListener('submit' , volume_sphere);
+		document.getElementById('MyForm').addEventListener('submit' , volume_sphere); //add event listener se sumit dabate hi volume ko show krdena
 	}
